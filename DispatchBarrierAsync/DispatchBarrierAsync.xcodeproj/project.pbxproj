@@ -15,6 +15,7 @@
 		005A25A6201199E500C2B831 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A25A5201199E500C2B831 /* main.m */; };
 		005A25B0201199E500C2B831 /* DispatchBarrierAsyncTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A25AF201199E500C2B831 /* DispatchBarrierAsyncTests.m */; };
 		005A25BB201199E500C2B831 /* DispatchBarrierAsyncUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A25BA201199E500C2B831 /* DispatchBarrierAsyncUITests.m */; };
+		005A25CA20119B4C00C2B831 /* BarrierCache.m in Sources */ = {isa = PBXBuildFile; fileRef = 005A25C920119B4C00C2B831 /* BarrierCache.m */; };
 		2C8F79DBA9E3C9E020EEFCB4 /* libPods-DispatchBarrierAsync.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DE1AD27A4E601DA8F652F183 /* libPods-DispatchBarrierAsync.a */; };
 		8F7F35EBCF8A1F3192891DAB /* libPods-DispatchBarrierAsyncUITests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 277BD24F5D4FDE6C037F7E96 /* libPods-DispatchBarrierAsyncUITests.a */; };
 		ADF8046868F1E1124F053666 /* libPods-DispatchBarrierAsyncTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 3A5B74ACDE2004A45E668E38 /* libPods-DispatchBarrierAsyncTests.a */; };
@@ -54,6 +55,8 @@
 		005A25B6201199E500C2B831 /* DispatchBarrierAsyncUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DispatchBarrierAsyncUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		005A25BA201199E500C2B831 /* DispatchBarrierAsyncUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DispatchBarrierAsyncUITests.m; sourceTree = "<group>"; };
 		005A25BC201199E500C2B831 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		005A25C820119B4C00C2B831 /* BarrierCache.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BarrierCache.h; sourceTree = "<group>"; };
+		005A25C920119B4C00C2B831 /* BarrierCache.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrierCache.m; sourceTree = "<group>"; };
 		273AA13D9E0D405D41D39B56 /* Pods-DispatchBarrierAsyncUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DispatchBarrierAsyncUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-DispatchBarrierAsyncUITests/Pods-DispatchBarrierAsyncUITests.release.xcconfig"; sourceTree = "<group>"; };
 		277BD24F5D4FDE6C037F7E96 /* libPods-DispatchBarrierAsyncUITests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DispatchBarrierAsyncUITests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3A5B74ACDE2004A45E668E38 /* libPods-DispatchBarrierAsyncTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DispatchBarrierAsyncTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -122,6 +125,8 @@
 				005A2597201199E500C2B831 /* AppDelegate.m */,
 				005A2599201199E500C2B831 /* ViewController.h */,
 				005A259A201199E500C2B831 /* ViewController.m */,
+				005A25C820119B4C00C2B831 /* BarrierCache.h */,
+				005A25C920119B4C00C2B831 /* BarrierCache.m */,
 				005A259C201199E500C2B831 /* Main.storyboard */,
 				005A259F201199E500C2B831 /* Assets.xcassets */,
 				005A25A1201199E500C2B831 /* LaunchScreen.storyboard */,
@@ -461,6 +466,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				005A25CA20119B4C00C2B831 /* BarrierCache.m in Sources */,
 				005A259B201199E500C2B831 /* ViewController.m in Sources */,
 				005A25A6201199E500C2B831 /* main.m in Sources */,
 				005A2598201199E500C2B831 /* AppDelegate.m in Sources */,
